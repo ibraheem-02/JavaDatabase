@@ -43,3 +43,8 @@ public class Main {
         scanner.close();
     }
 }
+private static String formatStudentDetails(Student student) {
+        return String.format("Name: %s\nRoll Number: %s\nYear of Studying: %s\nCourse: %s",
+                student.getName(), student.getRollNumber(), student.getYearOfStudying(), student.getCourse());
+    }
+}
