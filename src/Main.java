@@ -9,6 +9,9 @@ public class Main {
         // Printing the university name and institute name before taking inputs
         System.out.println(university.getCenteredUniversityName());
         System.out.println(university.getCenteredInstituteName() + "\n");
+        //Arisha 2k23/CSE/33
+        System.out.println("Welcome to our Database project");
+        System.out.println("I'm Arisha, I'm say to welcome to all in our project ");
 
         // Taking input from the user
         System.out.print("Enter Student Name: ");
